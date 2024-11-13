@@ -51,7 +51,7 @@ const ownerNumber = ['2397445120']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
-if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
+if(!config.SESSION_ID) return console.log('GjpVxRBZ#bqWKonOPqKndEUrPK6prY6p8-X_MdZnz_Ks4JBKJPow')
 const sessdata = config.SESSION_ID
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
